@@ -1,0 +1,17 @@
+{
+  "name": "logging_middleware",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reusable logging middleware for the evaluation assignment.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "example": "ts-node examples/example.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
